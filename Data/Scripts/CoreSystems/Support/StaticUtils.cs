@@ -18,6 +18,7 @@ namespace CoreSystems.Support
     {
         public static bool ModActivate(IMyModContext context, IMySession session)
         {
+            return true;
             var priority1 = 2734980390ul;
             var priority2 = 2189703321ul;
             var isP0 = context.ModName == "WeaponCore" || context.ModName == "CoreSystems";
